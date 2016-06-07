@@ -1,12 +1,13 @@
-package com.jingchen.pulltorefresh;
+package com.xiaozhuge007;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.AbsListView;
 import android.widget.ListView;
+
+import com.jingchen.pulltorefresh.R;
 
 public class PullableListView extends ListView implements Pullable {
     public static final int INIT = 0;

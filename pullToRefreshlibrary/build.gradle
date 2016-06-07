@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 23
@@ -37,4 +38,13 @@ android {
 dependencies {
     compile 'com.android.support:recyclerview-v7:23.4.0'
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.14'
+}
+
+publish {
+    userOrg = 'xiaozhuge007'
+    groupId = 'com.xiaozhuge007'
+    artifactId = 'pullToRefreshLibray'
+    publishVersion = '1.0.0'
+    desc = 'this is sample pullTorefresh'
+    website = 'https://github.com/xiaozhuge007/pullToRefreshLibrary'
 }

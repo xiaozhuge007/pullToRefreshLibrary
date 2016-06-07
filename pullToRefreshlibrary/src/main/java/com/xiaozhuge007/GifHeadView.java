@@ -1,11 +1,14 @@
-package com.jingchen.pulltorefresh;
+package com.xiaozhuge007;
 
-import pl.droidsonroids.gif.GifDrawable;
-import pl.droidsonroids.gif.GifImageView;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.RelativeLayout;
+
+import com.jingchen.pulltorefresh.R;
+
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 
 public class GifHeadView extends RelativeLayout
 {

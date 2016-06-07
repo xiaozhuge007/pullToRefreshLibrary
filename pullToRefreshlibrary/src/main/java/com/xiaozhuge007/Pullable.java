@@ -1,4 +1,4 @@
-package com.jingchen.pulltorefresh;
+package com.xiaozhuge007;
 
 public interface Pullable
 {

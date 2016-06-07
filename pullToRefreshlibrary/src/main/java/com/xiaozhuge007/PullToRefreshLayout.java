@@ -1,4 +1,4 @@
-package com.jingchen.pulltorefresh;
+package com.xiaozhuge007;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -13,6 +13,8 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.jingchen.pulltorefresh.R;
 
 import java.lang.ref.WeakReference;
 import java.util.Timer;
